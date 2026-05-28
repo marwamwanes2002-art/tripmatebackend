@@ -1,0 +1,36 @@
+{
+  "name": "tripmate-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+ "scripts": {
+  "start": "nodemon app.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.10.0",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "ejs": "^5.0.2",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.19.0",
+    "helmet": "^8.1.0",
+    "joi": "^18.2.1",
+    "joi-password-complexity": "^5.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^9.6.2",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.7",
+    "passport": "^0.7.0"
+  }
+}
